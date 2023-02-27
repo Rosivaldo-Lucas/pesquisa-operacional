@@ -1,0 +1,33 @@
+Lingote = x_1
+Grafite = x_2
+Sucata  = x_3
+
+MIN 90*x_1 + 180*x_2 + 25*x_3
+
+EX 1:
+
+Restrições
+
+x_1 + x_2 + x_3 = 10
+0 <= 0.5*x_1 + 90*x_2 + 9*x_3 <= 9.5
+19 <= 100/14*x_1 + 100/27*x_3 <= 20
+x_1, x_2, x_3 >= 0
+
+EX 2:
+
+0 <= x_1 <= 5
+0 <= x_2 <= 5
+0 <= x_3 <= 12
+
+EX 3:
+
+A primeira liga fica igual ao EX 1
+
+Para a segunda liga:
+
+x_4 + x_5 + x_6 = 6
+0 <= 0.5*x_1 + 90*x_2 + 9*x_3 <= 40
+12 <= 100/14*x_1 + 100/27*x_3 <= 19
+x_1, x_2, x_3 >= 0
+
+
